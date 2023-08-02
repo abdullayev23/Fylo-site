@@ -1,0 +1,610 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+         url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v28-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v28-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+
+  *{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  }
+  body{
+    font-family: 'Raleway' , sans-serif;
+    background: #1B2330;
+  }
+  .container{
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  header{
+    padding: 20px 0;
+  }
+  .header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo img{
+    width: 180px;
+  }
+  .nav-list{
+    display: flex;
+  }
+  .nav-list__item{
+    margin-left: 40px;
+  }
+  .nav-list__link{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .burger{
+    display: none;
+  }
+  .burger span{
+    width: 20px;
+    height: 3px;
+    background: #ffffff;
+    display: block;
+    margin: 2.2px 0;
+    border-radius: 10px;
+  }
+  .hero{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .hero__img{
+    width: 70%;
+  }
+  .hero__title{
+    max-width: 700px;
+    margin: 0 auto;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+color: #ffffff;  
+}
+.hero__text{
+    max-width: 600px;
+    margin: 32px auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+.hero__btn{
+padding: 15px 70px;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #ffffff;
+background: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+border-radius: 28px;
+border: none;
+}
+
+.s-c{
+    text-align: center;
+    margin-top: 150px;
+}
+.sc {
+    flex-wrap: wrap;
+}
+.sc .box{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sc .box .card img{
+    width: 90px;
+}
+.sc .box .card h2{
+   margin: 10px 0;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.sc .box .card p{
+
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+width: 340px;
+}
+
+.sc .box1{
+    margin-top: 75px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sc .box1 .card img{
+    width: 90px;
+}
+.sc .box1 .card h2{
+   margin: 10px 0;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.sc .box1 .card p{
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+width: 340px;
+}
+.s-c1 {
+    margin-top: 120px;
+}
+.sc1 {
+    flex-wrap: wrap;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    justify-content: space-around;
+}
+.sc1 .img img{
+    width: 420px
+}
+.sc1 .text h2{
+    padding-top: 65px;
+    color: #ffffff;
+}
+.sc1 .text p{
+    opacity: 0.5;
+    color: #ffffff;
+    padding-top: 15px;
+    width: 400px;
+}
+.sc1 .text .div p{
+    opacity: 1;
+    color: green;
+}
+.sc1 .text .div .line{
+    width: 160px;
+    height: 2.5px;
+    background-color: green;
+}
+.sc1 .text .div{
+    cursor: pointer;
+}
+.s-c2{
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.sc2{
+
+}
+.box{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sc2 .box .card{
+    height: 200px;
+width: 360px;
+border-radius: 3.932584285736084px;
+
+background: #202A3C;
+box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+}
+.sc2 .box .card p{
+    margin: 30px auto;
+    width: 310px;
+    font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+
+.ds{
+    display: flex;
+  margin-left: 20px;
+}
+.ds .tex h3{
+    padding-left: 5px;
+    font-size: 12px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+.ds .tex h3 span {
+    opacity: 0.9;
+     font-size: 8.5px;
+ line-height: 10px;
+ letter-spacing: 0.5px;
+ color: #FFFFFF;
+}
+
+footer{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 340px;  
+    background: #0B1524;
+    padding-bottom: 50px;
+}
+.ft {
+    flex-wrap: wrap;
+}
+.ft .box{
+    flex-wrap: wrap;
+    margin: 0px auto;
+    height: 275px;
+width: 863px;
+border-radius: 9px;
+
+background: #181F2B;
+box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
+}
+.ft .box h1{
+    margin-top: 0;
+    font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #FFFFFF;
+}
+.ft .box p{
+    width: 673px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ft .box input{
+    font-size: 18px;
+    padding-left: 10px;
+    margin-left: 28px;
+    height: 48px;
+width: 480px;
+border-radius: 24px;
+background: #FFFFFF;
+box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+}
+
+.ft .box button{
+    font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+    padding: 15px 28px;
+    background: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+border-radius: 24px;
+}
+
+input::-webkit-input-placeholder{
+   color: black;
+   opacity: 0.7;
+   font-size: 20px;
+   padding-left: 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    cursor: wait;
+}
+.ft p img{
+    padding-right: 10px;
+}
+.ft p{
+    padding-top: 68px;
+    width: 340px;
+    font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.ft ul{
+    flex-wrap: wrap;
+}
+.ft .disp{
+    margin-top: 50px;
+    flex-wrap: wrap;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ft ul li{
+    margin-top: 25px;
+    font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+}
+/* Responsive start */
+
+
+@media (max-width:900px) {
+    .ft .box {
+        height: 275px;
+        width: 763px;
+    }
+    footer{
+        margin-top: 80px;
+    }
+}
+
+
+@media (max-width:800px) {
+   .sc .box1{
+        margin-top: 0px;
+    }
+   .sc .box{
+        margin-top: 0px;
+    }
+    .box .card{
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+    .sc .box .card .img1{
+        width: 58px;
+    }
+    .box1 .card{
+        margin-top: 40px;
+        margin-left: 45px;
+    }
+    .sc1 .img img{
+        width: 388px;
+    }
+    .sc1 .text h2{
+        padding-top: 0;
+    }
+    footer{
+        margin-top: 70px;
+    }
+    .ft .box{
+        height: 335px;
+        width: 563px;
+    }
+    .ft .box p{
+        margin-top: -60px;
+        width: 473px;
+    }
+    .ft {
+        display: block;
+    }
+    .ft .disp{
+        display: block;
+    }
+}
+@media (max-width:600px) {
+    .logo img{
+        width: 150px;
+    }
+    .nav-list__link{
+        font-size: 16px;
+    }
+    .hero__title{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .hero__text{
+        margin: 20px auto;
+    font-size: 18px;
+    line-height: 24px;
+    }
+    .hero__btn{
+        padding: 10px 40px;
+    }
+    .s-c{
+        margin-top: 25px;
+    }
+    .sc .box{
+        margin-top: 0;
+    }
+    .sc .box .card{
+        margin-top: 50px;
+    }
+    .sc .box .card .img1{
+        width: 58px;
+    }
+    .sc .box1{
+        margin-top: 0;
+    }
+    .sc .box1 .card{
+        margin-top: 70px;
+    }
+    footer{
+        margin-top: 45px;
+    }
+    .ft .box{
+        margin: 0px 0px;
+        height: 400px;
+        width: 100%;
+    }
+    .ft .box p{
+        width: 433px;
+    }
+    .ft .box input{
+        width: 445px;
+    }
+    .ft {
+        display: block;
+        justify-content: start;
+    }
+    .ft .disp{
+        justify-content: start;
+        display: block;
+    }
+}
+@media (max-width:500px) {
+    .logo img{
+        width: 130px;
+    }
+    .header-nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .hero{
+        margin-top: 0;
+    }
+    .hero__img{
+        width: 90%;
+    }
+    .hero__title{
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .sc1 .img img{
+        width: 340px
+    }
+    .sc1 .text h2{
+        font-size: 22px;
+        padding-top: 0px;
+    }
+    .sc1 .text p{
+        opacity: 0.8;
+        padding-top: 13px;
+    }
+    .sc2 .box .card{
+        height: 200px;
+    width: 340px;
+    }
+
+    .ft .box{
+        margin: 0px 0px;
+        height: 285px;
+        width: 100%;
+    }
+    .ft .box p{
+        margin-top: -60px;
+        width: 433px;
+    }
+    .ft .box input{
+        width: 445px;
+    }
+    .ft {
+        display: block;
+        justify-content: start;
+    }
+    .ft .disp{
+        justify-content: start;
+        display: block;
+    }
+}
+@media (max-width:400px) {
+   .sc .box .card p{
+       padding-right: 27px;
+    }
+    .sc .box1 .card p{
+        padding-right: 27px;
+     }
+     .s-c1{
+        margin-top: 70px;
+    }
+     .sc1 .img img{
+        width: 340px
+    }
+    .sc1 .text p{
+        width: 320px;
+    }
+    .sc2 .box .card{
+    margin: 20px auto;
+    }
+    .ft .box{
+        margin: 0px 0px;
+        height: 305px;
+        width: 100%;
+    }
+    .ft .disp p{
+        max-width: 260px;
+    }
+    .ft .box p{
+        margin-top: -60px;
+        max-width: 260px;
+    }
+    .ft .box input{
+        
+    }
+    .ft {
+        justify-content: start;
+        display: block;
+    }
+    .ft .disp{
+        justify-content: start;
+        display: block;
+    }
+}
+@media (max-width:350px) {
+    .sc .box .card p{
+        font-size: 12px;
+        line-height: 16px;
+        width: 270px;
+        }
+    .sc .box1 .card p{
+        font-size: 12px;
+        line-height: 16px;
+        width: 270px;
+        }
+        .sc1 .img img{
+            width: 270px
+        }
+        .sc1 .text p{
+            width: 280px;
+        }
+        .s-c{
+            margin-top: 15px;
+        }
+        .sc2 .box .card {
+            width: 280px;
+            height: 160px;
+        }
+        .sc2 .box .card p{
+            margin: 25px auto;
+            width: 240px;
+            font-size: 10px;
+        line-height: 17px;
+        }
+        .ft .box h1{
+            font-size: 20px;
+        }
+        .ft .disp .im2{
+            width: 100px;
+        }
+        .ft .box{
+            margin: 0px 0px;
+            height: 405px;
+            width: 100%;
+        }
+        .ft .box p{
+            margin-top: -60px;
+            width: 183px;
+        }
+        .ft .disp p{
+            max-width: 240px;
+        }
+        .ft .box input{
+            margin: 0 auto;
+            width: auto;
+        }
+}
+@media (max-width: 290px) {
+    .ft .disp p{
+       max-width: 240px;
+    }
+}
